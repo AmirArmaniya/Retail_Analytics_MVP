@@ -105,7 +105,7 @@ with st.sidebar:
 @st.cache_resource
 def load_model():
     # Set env to prevent download attempts if file exists locally
-    os.environ['YOLO_DISABLE_MODEL_DOWNLOAD'] = '1'
+    #os.environ['YOLO_DISABLE_MODEL_DOWNLOAD'] = '1'
     return YOLO('yolov8n.pt')
 
 try:
