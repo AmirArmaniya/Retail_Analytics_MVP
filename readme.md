@@ -9,6 +9,11 @@ A smart AI-powered footfall counter designed for retail environments. This syste
 - **Resource Efficient:** Optimized for laptop CPUs using YOLOv8 Nano and ByteTrack.
 - **Multi-Language Support:** English and Persian (Farsi) interface.
 
+## 🎛️ Human-in-the-loop Calibration
+Instead of relying on a "Black Box" AI, this system allows the installer to fine-tune logic parameters for specific environments:
+- **Stitch Distance:** Adjusts how far the system searches to reconnect a lost customer ID.
+- **Memory Buffer:** Sets how long a "Ghost ID" remains active behind an obstacle.
+
 ## 🛠 Installation
 1. Install Python 3.9+
 2. Install dependencies:
